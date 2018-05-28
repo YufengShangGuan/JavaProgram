@@ -1,5 +1,6 @@
 package Java_FirstSeason;
 
+import  java.util.Scanner;
 import java.sql.SQLOutput;
 
 public class F_1 {
@@ -44,7 +45,10 @@ public class F_1 {
 
     //标准代码
     public static void main(String[] args){
-        int score=53;//成绩
+
+        Scanner input=new Scanner(System.in );
+        System.out.print("请输入你的成绩:");
+        int score=input.nextInt();//成绩
         int count=0;//加的次数
 
         //输出加分前的成绩
