@@ -18,5 +18,21 @@ public class F_6_8 {
         {
             System.out.println(score);
         }
+
+
+
+        // 定义两行三列的二维数组并赋值
+        // String[][] names=new String[1][2];
+        // names={{"tom","jack","mike"},{"zhangsan","lisi","wangwu"}};
+        String[][] names={{"tom","jack","mike"},{"zhangsan","lisi","wangwu"}};
+        // 通过二重循环输出二维数组中元素的值
+        for (int i = 0; i <names.length; i++)
+        {
+            for (int j = 0; j < names[i].length; j++)
+            {
+                System.out.println(names[i][j]);
+            }
+            System.out.println();
+        }
     }
 }
